@@ -213,7 +213,8 @@ async def on_ready():
     await init_db()
     await bot.tree.sync()
     scheduler.start()
-    print(f"Logged in as {bot.user}")
+
+    print("READY OK:", bot.user)
 
 import os
 TOKEN = os.getenv("DISCORD_TOKEN")
