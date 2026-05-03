@@ -2,9 +2,6 @@ import discord
 from discord.ext import commands, tasks
 import aiosqlite
 from datetime import datetime, timedelta
-import os
-
-TOKEN = os.getenv("DISCORD_TOKEN")
 
 # ===== ログ管理サーバー設定 =====
 LOG_GUILD_ID = 1500396286271295578
