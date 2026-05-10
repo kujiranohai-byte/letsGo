@@ -216,6 +216,5 @@ async def on_ready():
 import os
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-print("TOKEN:", TOKEN)
 
 bot.run(TOKEN)
